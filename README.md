@@ -10,15 +10,15 @@ There are some Validation and ErrorHandling login and register
 
 The system is simple using gradient colour of card profile from mbd templates and apply to other interface which is Login and Register: https://mdbootstrap.com/docs/standard/extended/profiles/
 
-## Quick Start
+# Quick Start
 
-# Backend Terminal
+## Backend 
 npm start
 - use nodemon tools
 - this start the server that connected to MYSQL, it a good tools for Node.js automatically restarting the server whenever a file changes. 
 - It is particularly useful when working on server-side code that connects to a database because it eliminates the need to manually restart the server each time make changes to code. 
 
-# Frontend Terminal
+## Frontend 
 npm start
-- view localhost on : 'http://localhost:3000'
+- view localhost on: 'http://localhost:3000'
 
