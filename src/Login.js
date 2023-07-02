@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Validation from './LoginValidation';
 import axios from 'axios';
-
+import './Profile.css';
 function Login() {
     const [values, setValues] = useState({
         email: '',
@@ -44,9 +44,10 @@ function Login() {
     }, [errors, navigate, values]);
 
     return (
-        <div className="d-flex justify-content-center align-item-center bg-primary vh-100">
+        <div className="d-flex justify-content-center align-items-center vh-100 gradient-custom">
             <div className="bg-white p-3 rounded w-25">
-                <h2>Login</h2> <hr />
+                <h2>Login</h2>
+                <hr />
                 <form action="" onSubmit={handleSubmit}>
                     <div className="mb-3">
                         <label htmlFor="email">
