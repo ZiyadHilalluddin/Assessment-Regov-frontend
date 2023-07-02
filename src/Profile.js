@@ -1,16 +1,17 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
-function Profile(props) {
-  const { user } = props;
-
-  return (
-    <div>
-      <h2>Welcome, {user.name}!</h2>
-      <p>Email: {user.email}</p>
-      <p>Logout</p>
-      {/* Display user picture */}
-    </div>
-  );
-}
-
-export default Profile;
+function Profile() {
+    const location = useLocation();
+    const { user } = location.state || {}; // Access the user object from state
+  
+    return (
+      <div>
+        <h1>Welcome, {user ? user.name : 'Guest'}!</h1>
+        <p>Email: {user ? user.email : ''}</p>
+      </div>
+    );
+  }
+  
+  export default Profile;
+  
