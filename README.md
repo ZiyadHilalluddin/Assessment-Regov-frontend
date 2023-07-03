@@ -10,6 +10,7 @@ I choose Node JS because I've never experienced using it. Before this, I only us
 The same goes to React JS, It was my first time
 
 There are some Validation and ErrorHandling login and register
+
 The system is simple using the gradient color of card profile from mbd templates and applying it to other interfaces which is Login and Register: https://mdbootstrap.com/docs/standard/extended/profiles/
 
 # Quick Start
