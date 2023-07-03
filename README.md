@@ -13,6 +13,7 @@ To test the system, you need to start a server for both the front-end and back-e
 ## File Structure
 Within the download you'll find the following directories and files:
 
+```
 Assessment-Regov
 └── backend
 |  ├── package-lock.json
@@ -40,7 +41,8 @@ Assessment-Regov
       ├── setupTest.js
       ├── Signup.js
       └── SignupValidation.js
-      
+```
+
 ## Backend 
 - cd backend 
 - npm start
